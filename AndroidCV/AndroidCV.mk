@@ -10,8 +10,8 @@ LOCAL_CPPFLAGS := -std=c++11 -pthread -frtti -fexceptions $(BVS_OPTIONS)
 APP_USE_CPP0X := true
 
 LOCAL_ARM_MODE := arm
-LOCAL_SRC_FILES := $(BVS_MODULES_PATH)/AndroidCV/AndroidCV.cc
+LOCAL_SRC_FILES := modules/bvs-modules/AndroidCV/AndroidCV.cc
 
 LOCAL_LDLIBS  += -llog
 LOCAL_SHARED_LIBRARIES := BvsA
-~                                    
+~
