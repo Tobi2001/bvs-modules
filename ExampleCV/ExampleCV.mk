@@ -9,7 +9,6 @@ APP_USE_CPP0X := true
 LOCAL_ARM_MODE := arm
 # --llog for logging
 LOCAL_LDLIBS  += -llog
-LOCAL_SRC_FILES := $(BVS_MODULES_PATH)/ExampleCV/ExampleCV.cc
+LOCAL_SRC_FILES := modules/bvs-modules/ExampleCV/ExampleCV.cc
 
 LOCAL_SHARED_LIBRARIES := BvsA
-
