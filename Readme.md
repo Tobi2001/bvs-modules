@@ -1,7 +1,8 @@
 BVS (BASE) MODULES
 ==================
 
-* **CalibrationCV**: used to calibrate cameras (nodes). Currently, only extrinsic and intrinsic calibration for stereo cameras is supported.
+* **AndroidCV**: Display module for the android client.
+* **CalibrationCV**: Used to calibrate cameras (nodes). Currently, only extrinsic and intrinsic calibration for stereo cameras is supported.
 * **CaptureCV**: General capture module. Can access streams from attached camaras, also read and write from/to images and videos.
 * **ExampleCV**: Example module providing an example of how to use the framework.
 * **StereoCVCUDA**: Wrapper for OpenCV's stereo capabilities.
