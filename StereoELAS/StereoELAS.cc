@@ -48,9 +48,9 @@ StereoELAS::StereoELAS(BVS::ModuleInfo info, const BVS::Info& bvs)
 	}
 
 	param.support_threshold = 0.95;
-	param.postprocess_only_left = false;
+    param.postprocess_only_left = false;
 	param.add_corners = true;
-	param.ipol_gap_width = 30;
+    param.ipol_gap_width = 30;
 	elas = Elas(param);
 
 	if (sliceCount!=1)
@@ -68,7 +68,7 @@ StereoELAS::StereoELAS(BVS::ModuleInfo info, const BVS::Info& bvs)
 		cv::namedWindow("bvs-elas-in-right", 0);
 		cv::namedWindow("bvs-elas-disp-left", 0);
 		cv::namedWindow("bvs-elas-disp-right", 0);
-		cv::startWindowThread();
+		//cv::startWindowThread();
 	}
 }
 
